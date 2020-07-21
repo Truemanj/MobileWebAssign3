@@ -44,6 +44,6 @@ export class ContentComponent {
   public rollDice(){
     console.log("rollDice() is called");
     this.dice.forEach(die => die.rollDie());
-
+    
   }
 }
