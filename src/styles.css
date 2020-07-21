@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    padding-left: 1em;
+    font-family: sans-serif;
+}
+
+main{
+    padding-left: 1em;
+}
+
+h1{
+    color: #4caf50;
+    text-shadow: 2px 2px 5px #81c784;
+}
+
+h2 {
+    color: #0015d4;
+}
+.RollDice {
+    color: #00bcd4;
+}
+
+a{
+    color: #0288D1;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+span.cardName{
+    font-size: larger;
+    font-weight: bolder;
+    color: #ff9800;
+}
+
+.total_label{
+    color: #673ab7;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.total_number{
+    font-size: larger;
+    font-weight: bolder;
+    color: #ff9800;
+}
+
