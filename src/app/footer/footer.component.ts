@@ -1,3 +1,4 @@
+//Josh Trueman 991257988
 import { Component} from '@angular/core';
 
 @Component({
@@ -5,6 +6,7 @@ import { Component} from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
+//Set the date for the footer
 export class FooterComponent {
     today: Date;
   constructor() {

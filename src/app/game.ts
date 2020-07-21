@@ -28,8 +28,8 @@ export class Game {
         for(let die of this.dice){
             sum += die.side;
         }
-       // return sum;
-       return 1;
+        return sum;
+       
     }
     get numberOfDice(){
         console.log("get numberOfDice() is called");

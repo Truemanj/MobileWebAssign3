@@ -1,3 +1,4 @@
+//Josh Trueman 991257988
 import { Component, OnInit } from '@angular/core';
 import {Die} from '../die';
 

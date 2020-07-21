@@ -1,3 +1,4 @@
+//Josh Trueman 991257988
 import { Component, OnInit } from '@angular/core';
 import {Game} from './game';
 
@@ -12,18 +13,19 @@ export class AppComponent implements OnInit  {
 
   ngOnInit(): void {
   
-    const maxNumberOfDice = 1; // the max number in the select (can be changed here)
-    let game = new Game(); // the game object
+    //Sets the number of die, initializes the game and rolls the dice
+    const maxNumberOfDice = 1; 
+    let game = new Game(); 
     game.rollDice();
-
-    let numberOfDice = 1; //game.numberOfDice; // the current number of dice
+    //Set the number of dice
+    let numberOfDice = 1; 
     console.log(game);
+    //Declare the variables
+    let select; 
+    let dice; 
+    let total; 
 
-    let select; // select tag to input the number of dice
-    let dice; // tag to contain the image tags
-    let total; // tag for the displayed number
-
-// preload dice image files to reduce flickering
+    //Load the images
     let images = [];
     for (let i = 1; i <= 1; i++) {
         let image = new Image();
@@ -31,7 +33,7 @@ export class AppComponent implements OnInit  {
         images.push(image);
     }
 
-
+    //Get the elements for the game
     select = document.getElementById("select");
     dice = document.getElementById("dice");
     total = document.getElementById("total");
